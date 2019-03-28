@@ -1,0 +1,13 @@
+package cn.jcet.test;
+
+/**
+ * 测试装饰者模式
+ * @author 鲜磊
+ *
+ */
+public class MainTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

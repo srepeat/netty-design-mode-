@@ -1,0 +1,11 @@
+package cn.jcet.test;
+
+import cn.jcet.demo.HouseBuilder;
+import cn.jcet.demo.PingFanBuilder;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		HouseBuilder builder = new PingFanBuilder();
+	}
+}

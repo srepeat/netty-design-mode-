@@ -1,0 +1,9 @@
+package cn.jcet.demo;
+
+public interface HouseBuilder {
+
+	//ÐÞÇ½Æ¤
+	void getWall();
+	//ÐÞµØ°å
+	void getFloor();
+}

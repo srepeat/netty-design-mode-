@@ -1,0 +1,9 @@
+package cn.jcet.demo;
+
+public class House {
+
+	//µØ°å
+	private String floor;
+	//Ç½Æ¤
+	private String wall;
+}

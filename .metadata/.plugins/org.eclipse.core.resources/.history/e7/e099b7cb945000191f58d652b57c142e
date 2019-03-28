@@ -1,0 +1,15 @@
+package cn.jcet.demo;
+
+public interface HouseBuilder {
+
+	//修墙皮
+	void getWall();
+	//修地板
+	void getFloor();
+	//修房顶
+	void getHouseTop();
+	
+	//返回当前对象
+	House getHouse();
+	
+}

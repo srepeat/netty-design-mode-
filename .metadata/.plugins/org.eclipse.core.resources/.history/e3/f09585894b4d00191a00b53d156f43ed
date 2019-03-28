@@ -1,0 +1,22 @@
+package cn.jcet.server;
+
+import java.lang.reflect.Executable;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import org.jboss.netty.bootstrap.ServerBootstrap;
+
+public class Server {
+	public static void main(String[] args) {
+		//创建服务
+		ServerBootstrap bootstrap = new ServerBootstrap();
+		//创建线程池
+		ExecutorService boss = Executors.newCachedThreadPool();
+		ExecutorService worker = Executors.newCachedThreadPool();
+		
+		
+		
+	}
+
+}

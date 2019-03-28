@@ -1,0 +1,8 @@
+package com.server;
+
+import io.netty.channel.SimpleChannelInboundHandler;
+
+public class ServerHandler extends SimpleChannelInboundHandler<String> {
+
+
+}

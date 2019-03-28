@@ -1,0 +1,18 @@
+package com.server;
+
+import io.netty.bootstrap.ServerBootstrap;
+
+public class Server {
+
+	public static void main(String[] args) {
+		
+		//创建服务
+		ServerBootstrap bootstrap = new ServerBootstrap();
+		
+		//创建线程池boos workes
+		
+		
+		
+		
+	}
+}

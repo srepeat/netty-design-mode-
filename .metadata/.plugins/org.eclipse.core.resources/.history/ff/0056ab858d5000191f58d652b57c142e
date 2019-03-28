@@ -1,0 +1,5 @@
+package cn.jcet.demo;
+
+public interface HouseBuilder {
+
+}

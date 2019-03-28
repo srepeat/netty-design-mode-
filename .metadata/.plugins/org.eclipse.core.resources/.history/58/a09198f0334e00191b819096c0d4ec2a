@@ -1,0 +1,13 @@
+package cn.jcet;
+
+import cn.jcet.demo.Person;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		Person person = Person.getPerson();
+		person.setName("李四");
+		person.setName("张三");
+		
+	}
+}

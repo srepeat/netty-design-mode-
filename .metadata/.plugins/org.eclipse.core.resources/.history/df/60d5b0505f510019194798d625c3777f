@@ -1,0 +1,47 @@
+package com.client;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.EventLoopGroup;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.nio.NioSocketChannel;
+
+/**
+ * 对象组
+ * @author 鲜磊
+ *
+ */
+public class MultClient {
+
+	//服务
+	private Bootstrap bootstrap = new Bootstrap();
+	
+	//线程容器
+	private List<Channel> channels = new ArrayList<>();
+	
+	
+	//初始化方法
+	public void init(int count) {
+		
+		//创建线程池
+		EventLoopGroup worker = new NioEventLoopGroup();
+		
+		//管理线程
+		bootstrap.group(worker);
+		
+		//创建工厂
+		bootstrap.channel(NioSocketChannel.class);
+		
+		//过滤
+		bootstrap.handler(new ChannelInitializer<Channel>() {
+		})
+		 
+	}
+	
+	
+	
+}

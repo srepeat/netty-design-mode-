@@ -1,0 +1,12 @@
+package cn.jcet.demo;
+
+public class FlyCar implements Car {
+
+	public void run() {
+		System.out.println("car...run...");
+	}
+	
+	public void fly() {
+		System.out.println("car...fly...");
+	}
+}

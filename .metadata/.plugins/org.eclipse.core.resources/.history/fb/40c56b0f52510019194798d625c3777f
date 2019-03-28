@@ -1,0 +1,12 @@
+package com.client;
+
+import org.jboss.netty.bootstrap.ClientBootstrap;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

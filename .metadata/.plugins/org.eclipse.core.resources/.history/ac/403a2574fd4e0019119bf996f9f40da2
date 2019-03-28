@@ -1,0 +1,44 @@
+package cn.jcet.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 设计--原型模型
+ * @author 鲜磊
+ *
+ */
+public class Person implements Cloneable{
+	
+	private String name;
+	private Integer age;
+	private List<String> friends = new ArrayList<String>();
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	
+	@Override
+	public  Person clone()  {
+		try {
+			//返回clone方法
+			return (Person) super.clone();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	
+	
+}

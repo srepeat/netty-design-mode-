@@ -1,0 +1,20 @@
+package cn.jcet.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.jcet.model.Person;
+
+public class MainTest {
+	
+	public static void main(String[] args) {
+			
+		Person person =new Person();
+//		person.setName("губђ");	
+		List<String> list = new ArrayList<>();
+		
+		Person person2 = person.clone();
+		System.out.println(person.getName());
+		System.out.println(person2.getName());
+	}
+}

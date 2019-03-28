@@ -1,0 +1,30 @@
+package cn.jcet.demo;
+
+public class House {
+
+	//µØ°å
+	private String floor;
+	//Ç½Æ¤
+	private String wall;
+	//·¿¶¥
+	private String hotseTop;
+	public String getFloor() {
+		return floor;
+	}
+	public void setFloor(String floor) {
+		this.floor = floor;
+	}
+	public String getWall() {
+		return wall;
+	}
+	public void setWall(String wall) {
+		this.wall = wall;
+	}
+	public String getHotseTop() {
+		return hotseTop;
+	}
+	public void setHotseTop(String hotseTop) {
+		this.hotseTop = hotseTop;
+	}
+	
+}

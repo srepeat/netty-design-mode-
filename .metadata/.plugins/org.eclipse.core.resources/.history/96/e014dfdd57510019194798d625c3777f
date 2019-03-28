@@ -1,0 +1,67 @@
+package com.client;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.EventLoopGroup;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+
+/**
+ * 客户端
+ * @author 鲜磊
+ *
+ */
+
+public class Client {
+
+	public static void main(String[] args) {
+		//创建连接
+		Bootstrap bootstrap = new Bootstrap();
+		
+		//不用创建boos监听端口
+		EventLoopGroup worker = new NioEventLoopGroup();
+		
+		try {
+			//创建工厂
+			bootstrap.channel(NioSocketChannel.class);
+			
+			//创建过滤
+			bootstrap.handler(new ChannelInitializer<Channel>() {
+
+				@Override
+				protected void initChannel(Channel ch) throws Exception {
+						ch.pipeline().addLast(new StringEncoder());
+						ch.pipeline().addLast(new StringDecoder());
+						ch.pipeline().addLast(new ClineHandler());
+				}
+			});
+			
+			//绑定IP和端口
+			ChannelFuture connect = bootstrap.connect("127.0.0.1", 10101);
+			
+			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+			//循环读取
+			while(true) {
+				System.err.println("请输入:");
+				String readLine = bufferedReader.readLine();
+				//写入读取的一行
+				connect.channel().writeAndFlush(readLine);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}finally {
+			//释放资源
+			worker.shutdownGracefully();
+		}
+		
+		
+	}
+}

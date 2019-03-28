@@ -1,0 +1,16 @@
+package com.client;
+
+import io.netty.bootstrap.Bootstrap;
+
+/**
+ * 对象组
+ * @author 鲜磊
+ *
+ */
+public class MultClient {
+
+	//服务
+	private Bootstrap bootstrap = new Bootstrap();
+	
+	//线程容器
+}

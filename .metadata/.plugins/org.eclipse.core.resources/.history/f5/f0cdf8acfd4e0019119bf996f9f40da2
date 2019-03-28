@@ -1,0 +1,25 @@
+package cn.jcet.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.w3c.dom.stylesheets.LinkStyle;
+
+import cn.jcet.model.Person;
+
+public class MainTest {
+	
+	public static void main(String[] args) {
+			
+		Person person =new Person();
+//		person.setName("ÓãÑò");	
+		List<String> list = new ArrayList<>();
+		list.add("ÀîËÄ");
+		list.add("zhangsan");
+		person.setFriends(list);
+		
+		Person person2 = person.clone();
+		System.out.println(person.getFriends());
+		System.out.println(person2.getFriends());
+	}
+}

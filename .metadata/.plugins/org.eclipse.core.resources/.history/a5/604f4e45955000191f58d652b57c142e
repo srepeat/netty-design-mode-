@@ -1,0 +1,36 @@
+package cn.jcet.demo;
+/**
+ * 建造者模式是通过一个共同属性的类，然后都有着共同得特点得方法，例如修建房屋最基本得属性，或者车、船之类得东西
+ * @author 鲜磊
+ *
+ */
+
+public class House {
+
+	//地板
+	private String floor;
+	//墙皮
+	private String wall;
+	//房顶
+	private String hotseTop;
+	
+	public String getFloor() {
+		return floor;
+	}
+	public void setFloor(String floor) {
+		this.floor = floor;
+	}
+	public String getWall() {
+		return wall;
+	}
+	public void setWall(String wall) {
+		this.wall = wall;
+	}
+	public String getHotseTop() {
+		return hotseTop;
+	}
+	public void setHotseTop(String hotseTop) {
+		this.hotseTop = hotseTop;
+	}
+	
+}

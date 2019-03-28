@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.jboss.netty.bootstrap.ServerBootstrap"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory"/>
+<fullyQualifiedTypeName name="cn.jcet.server.HelloHandler"/>
+<fullyQualifiedTypeName name="org.jboss.netty.buffer.ChannelBuffer"/>
+<fullyQualifiedTypeName name="org.jboss.netty.buffer.ChannelBuffers"/>
+<fullyQualifiedTypeName name="org.jboss.netty.bootstrap.ClientBootstrap"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Executable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.socket.nio.NioClientBossPool"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.ChannelPipelineFactory"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.ChannelPipeline"/>
+<fullyQualifiedTypeName name="cn.jcet.client.HiHandler"/>
+<fullyQualifiedTypeName name="org.jboss.netty.handler.codec.string.StringEncoder"/>
+<fullyQualifiedTypeName name="org.jboss.netty.handler.codec.string.StringDecoder"/>
+<fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
+<fullyQualifiedTypeName name="cn.jcet.client.Client"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.Channels"/>
+<fullyQualifiedTypeName name="java.nio.channels.Channel"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.Person"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.Person2"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.Person3"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentNavigableMap"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="org.w3c.dom.stylesheets.LinkStyle"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cn.jcet.model.Person"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.PingFanBuilder"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.HouseBuilder"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.BuilderDeviction"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.House"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.FlyCar"/>
+<fullyQualifiedTypeName name="cn.jcet.demo.Car"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,18 @@
+package cn.jcet.demo;
+
+public class BuilderDeviction {
+
+	private House house;
+	
+	public BuilderDeviction(HouseBuilder builder) {
+//		super();
+		this.house = builder;
+	}
+	//调用方法
+	public void getHouse() {
+		house.getWall();
+		house.getFloor();
+		house.getHotseTop();
+	}
+	
+}

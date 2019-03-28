@@ -1,0 +1,29 @@
+package cn.jcet.demo;
+
+public class PingFanBuilder implements HouseBuilder{
+
+	@Override
+	public void getWall() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getFloor() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getHouseTop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public House getHouse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

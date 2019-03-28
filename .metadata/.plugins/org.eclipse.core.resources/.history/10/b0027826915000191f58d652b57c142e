@@ -1,0 +1,8 @@
+package cn.jcet.demo;
+
+public class BuilderDeviction {
+
+	private House house;
+	
+	
+}

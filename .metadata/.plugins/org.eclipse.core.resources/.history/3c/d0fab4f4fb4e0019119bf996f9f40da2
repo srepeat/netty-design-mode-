@@ -1,0 +1,12 @@
+package cn.jcet.model;
+
+/**
+ * 设计--原型模型
+ * @author 鲜磊
+ *
+ */
+public class Person {
+	
+	private String name;
+	private Integer age;
+}
